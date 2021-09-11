@@ -1,0 +1,84 @@
+
+button{
+  border-radius: 10px;
+  border: none;
+  background-image: linear-gradient(
+    to right,
+    #c71e1e 0%,
+     #ca1717 51%,
+     #cf1212 100%
+    );
+  color: rgb(17, 7, 2);
+  padding: 12px;
+}
+button:hover{
+  transition: 200ms;
+ scale:1.5;
+ background-image: linear-gradient(
+    to right,
+    #1bbdbd 0%,
+     #15c2b3 51%,
+     #20afb9 100%
+    );
+
+}
+nav{
+  color: rgb(31, 128, 192);
+  background-attachment: fixed;
+  background-color: rgb(27, 16, 192);
+}
+.avatar{
+  border-radius: 70%;
+}
+#main{
+  padding: 25px 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display:none;
+}
+.profile {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  background-image: linear-gradient(
+    to right,
+    #1883ad 0%,
+     #17c7c7 51%,
+     #1eadad 100%
+    );
+  max-width: 300px;
+  margin: 12px auto;
+  text-align: center;
+  font-family: arial;
+  padding: 25px;
+  border-radius: 9px;
+}
+.profile:hover{
+  transition:400ms;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  background-image: linear-gradient(
+    to right,
+    #16a3c7 0%,
+     #1594b4 51%,
+     #13a1b4 100%
+    );
+}
+.email {
+  color: rgb(187, 28, 28);
+  font-size: 25px;
+  overflow-wrap: anywhere;
+}
+
+.email:hover {
+  color: rgb(211, 24, 24);
+}
+
+.name{
+  font-size:20px;
+  font-weight: bold;
+  color: rgb(10, 10, 10);
+
+}
+.loader{
+  margin-left: auto;
+  margin-right: auto;
+}
